@@ -1,9 +1,9 @@
-package com.in28minutes.learn_spring_framework;
+package com.in28minutes.learn_spring_framework.game;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 
-public class AppGamingBasic {
+public class App01GamingBasic {
     
     public static void main(String[] args) {
         
