@@ -1,4 +1,4 @@
-package com.in28minutes.learn_spring_framework.advanced;
+package com.in28minutes.learn_spring_framework.advanced.lazy;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -24,11 +24,11 @@ class classB{
 
 @Configuration
 @ComponentScan
-public class App03advanced {
+public class App03lazy {
     
     public static void main(String[] args) {
       
-        try (var applicationContext = new AnnotationConfigApplicationContext(App03advanced.class)) {
+        try (var applicationContext = new AnnotationConfigApplicationContext(App03lazy.class)) {
             applicationContext.getBean(classB.class);
             System.out.println("init of context is completed");
 
